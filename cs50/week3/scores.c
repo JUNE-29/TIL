@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <cs50.h>
 
+//CS50 IDE
+
 float average(int length, int array[]);
 
 int main(void)
