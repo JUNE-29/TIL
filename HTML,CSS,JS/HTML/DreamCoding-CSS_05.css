@@ -1,0 +1,33 @@
+.container{
+  padding-top: 100px;
+  background: beige;
+  height: 100vh;
+  display: flex;
+}
+
+.item {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.item1 {
+  background: #f48fb1;
+  flex: 2 2 auto; /* grow, shrink, basis */
+  /*
+  flex-grow: 1; 기본 값은 0 
+  flex-shrink: 2;  기본 값은 0 
+  flex-basis: 60%;  기본 값은 auto 
+  */
+  align-self: center;
+}
+
+.item2 {
+  background: #fff9c4;
+}
+
+.item3 {
+  background: #80deea;
+}
+
+  /* 출처: Youtube 드림코딩 by 엘리 */
