@@ -1,3 +1,9 @@
+:root {
+  --text-color: #f0f4f5;
+  --background-color: #5599f8;
+  --accent-color: #fff242;
+}
+
 body {
   margin: 0;
   font-family: "Source Sans Pro";
@@ -5,24 +11,24 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
+  color: var(--text-color);
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #5599f8;
+  background-color: var(--background-color);
   padding: 8px 12px;
 }
 
 .navbar_logo {
   font-size: 24px;
-  color: white;
+  color: var(--text-color);
 }
 
 .navbar_logo i {
-  color: #fff242;
+  color: var(--accent-color);
 }
 
 .navbar_menu {
@@ -36,14 +42,14 @@ a {
 }
 
 .navbar_menu li:hover {
-  background-color: #fff242;
+  background-color: var(--accent-color);
   border-radius: 4px;
 }
 
 .navbar_icons {
   display: flex;
   list-style: none;
-  color: white;
+  color: var(--text-color);
   padding-left: 0;
 }
 
@@ -56,7 +62,7 @@ a {
   position: absolute;
   right: 30px;
   font-size: 24px;
-  color: #fff242;
+  color: var(--accent-color);
 }
 
 @media screen and (max-width: 768px) {
