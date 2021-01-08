@@ -89,6 +89,7 @@ a {
   }
 
   .navbar_icons {
+    flex-direction: row;
     position: absolute;
     top: 3px;
     right: 10px;
@@ -96,6 +97,10 @@ a {
   }
 
   .navbar_toggleBtn {
+    display: block;
+  }
+
+  .navbar_menu.active {
     display: block;
   }
 }
