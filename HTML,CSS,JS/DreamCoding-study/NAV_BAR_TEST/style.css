@@ -16,6 +16,7 @@ a {
 }
 
 .navbar_logo {
+  font-family: "Redressed", cursive;
   font-size: 25px;
 }
 
@@ -30,24 +31,39 @@ a {
 .navbar_menu {
   display: flex;
   list-style: none;
-  padding-left: 0px;
+  padding-left: 0;
+  font-family: "Source Sans Pro";
 }
 
 .navbar_menu li {
-  padding: 20px;
+  padding: 8px 15px;
+}
+
+.navbar_menu li:hover {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 90%, #b9cfbb 0%);
+  /*background-color: #b9cfbb;*/
+  /*border-radius: 4px;*/
 }
 
 .navbar_icons {
-  font-size: 18px;
   display: flex;
   list-style: none;
+  font-size: 18px;
   padding-left: 0px;
 }
 
 .navbar_icons li {
-  padding: 15px;
+  padding: 8px 15px;
 }
 
 .navbar_icons i {
+  color: #035321;
+}
+
+.navbar_toggleBtn {
+  display: none;
+  position: absolute;
+  right: 30px;
+  font-size: 18px;
   color: #035321;
 }
