@@ -12,6 +12,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 8px 12px;
+  padding-left: 16px;
   background-color: #e4efe9;
 }
 
@@ -63,7 +64,38 @@ a {
 .navbar_toggleBtn {
   display: none;
   position: absolute;
-  right: 30px;
+  top: 11px;
+  left: 30px;
   font-size: 18px;
   color: #035321;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 24px;
+  }
+
+  .navbar_menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar_menu li {
+    widows: 100px;
+  }
+
+  .navbar_icons {
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    margin: 0px;
+  }
+
+  .navbar_toggleBtn {
+    display: block;
+  }
 }
