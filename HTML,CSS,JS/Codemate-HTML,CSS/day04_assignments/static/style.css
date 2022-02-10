@@ -1,0 +1,158 @@
+/* Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* Global */
+
+:root {
+  /* color */
+  --color--dirty-pink: #ca7b80;
+  --color--light-pink: #efd7d7;
+  --color--dark-pink: #ad4f4f;
+}
+
+/* Universal tags */
+body {
+  margin: 0px;
+  cursor: default;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Navbar */
+#navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 0px 3px 0px;
+}
+
+.navbar__logo a {
+  font-family: "Cormorant Garamond", serif;
+  color: var(--color--dirty-pink);
+  font-size: 50px;
+}
+
+.navbar__menu {
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+}
+
+.navbar__menu__item {
+  padding: 8px 12px;
+  margin: 0 4px;
+}
+
+.navbar__menu__item a:hover {
+  color: var(--color--dirty-pink);
+}
+
+/* banner */
+#main__banner {
+  width: 100%;
+  display: block;
+}
+
+#main__banner img {
+  width: 100%;
+}
+
+/* contents  */
+
+.stage__title {
+  text-align: center;
+  font-size: 30px;
+  margin: 50px 0px 30px 0px;
+}
+
+.stage__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  height: 380px;
+}
+
+.item__img {
+  width: 321px;
+  height: 237px;
+}
+
+.item__info {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 250px;
+  left: 5%;
+  font-size: 15px;
+}
+
+.info__title {
+  margin: 5px 0px;
+}
+
+/* footer */
+
+#footer {
+  background-color: var(--color--light-pink);
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.footer__social li {
+  padding: 20px;
+}
+
+.social__icon {
+  font-size: 25px;
+}
+
+.social__icon a {
+  color: var(--color--dark-pink);
+}
+
+.footer__navigation {
+  margin-bottom: 20px;
+}
+
+.footer__nav-list {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+.footer__nav-list li {
+  padding: 20px;
+}
+
+.footer__nav-list li a {
+  padding: 20px;
+  color: var(--color--dark-pink);
+}
