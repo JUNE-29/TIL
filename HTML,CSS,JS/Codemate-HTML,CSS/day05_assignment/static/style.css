@@ -1,0 +1,72 @@
+/* Global */
+:root {
+  /* color */
+  --color--white: #fff;
+  --color--light-grey: #f0f0f0;
+  --color--grey: #a7a7a7;
+  --color--dark-grey: #8d9597;
+  --color--dark-blue: #acd2dd;
+}
+
+/* Universal tags */
+body {
+  background-color: var(--color--grey);
+  margin: 0;
+}
+
+.background__pattern {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  opacity: 0.33;
+  background: linear-gradient(var(--color--white) 3%, transparent 3%),
+    linear-gradient(to right, var(--color--white) 3%, var(--color--grey) 3%);
+  background-size: 13px 13px;
+}
+
+/* book */
+
+#book {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookcover {
+  position: absolute;
+  display: flex;
+  width: 900px;
+  height: 600px;
+  border: solid 1px;
+  border-color: var(--color--dark-grey);
+  border-radius: 8px;
+  background-color: var(--color--dark-blue);
+  justify-content: center;
+  align-items: center;
+}
+
+.bookdot {
+  position: absolute;
+  display: flex;
+  width: 870px;
+  height: 570px;
+  border: dashed 0.1em;
+  border-color: var(--color--white);
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.page {
+  position: absolute;
+  display: flex;
+  width: 850px;
+  height: 550px;
+  background-color: var(--color--light-grey);
+  border: solid 1px;
+  border-color: var(--color--grey);
+  border-radius: 8px;
+}
