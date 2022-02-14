@@ -7,5 +7,6 @@
 - ✅ DAY 03 과제: CSS 업그레이드! >> [코드메이트 링크](https://codemate.kr/@oh29/HTMLCSS-심화편-DAY-3-CSS-업그레이드)
 - ✅ DAY 04 과제: HTML, CSS 개념 복습하기! >> [코드메이트 링크](https://codemate.kr/@oh29/HTMLCSS-심화편-DAY-04)
 - ✅ DAY 05 과제: 미니홈피 기본 레이아웃 만들기 >> [코드메이트 링크](https://codemate.kr/@oh29/HTMLCSS-심화편-DAY-05)
+- ✅ DAY 06 과제: 미니홈피 홈화면 레이아웃 만들기 >> [코드메이트 링크](https://codemate.kr/@oh29/HTMLCSS-심화편-DAY-06)
 
 > Written with [StackEdit](https://stackedit.io/).
