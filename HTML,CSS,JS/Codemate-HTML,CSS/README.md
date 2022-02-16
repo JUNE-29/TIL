@@ -11,5 +11,6 @@
 - ✅ DAY 05 과제: 미니홈피 기본 레이아웃 만들기 >> [코드메이트 링크](https://codemate.kr/@oh29/HTMLCSS-심화편-DAY-05)
 - ✅ DAY 06 과제: 미니홈피 홈화면 레이아웃 만들기1 >> [코드메이트 링크](https://codemate.kr/@oh29/HTMLCSS-심화편-DAY-06)
 - ✅ DAY 07 과제: 미니홈피 홈화면 레이아웃 만들기2 >> [코드메이트 링크](https://codemate.kr/@oh29/HTMLCSS-심화편-DAY-07)
+- ✅ DAY 08 과제: 미니홈피 프로젝트 css 파일 분리하기 >> [코드메이트 링크](https://codemate.kr/@oh29/HTMLCSS-심화편-DAY-08)
 
 > Written with [StackEdit](https://stackedit.io/).
