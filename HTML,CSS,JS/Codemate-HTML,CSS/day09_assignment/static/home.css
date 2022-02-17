@@ -1,0 +1,125 @@
+/* minihomepi - Updated news */
+
+.updated_news__area {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 10px 0px 10px 15px;
+}
+
+.board_count__area {
+  display: flex;
+  flex: 1;
+}
+
+.updated_news__title {
+  display: flex;
+  flex: 0.1;
+  font-size: 15px;
+  border-bottom: solid 1px;
+  border-color: var(--color--light-dark-grey);
+  color: var(--color--marine-blue);
+  font-weight: 700;
+}
+
+.board_title__box {
+  display: flex;
+  flex: 1;
+}
+
+.board_name {
+  display: flex;
+  justify-content: center;
+  flex: 0.2;
+  font-size: 13px;
+}
+
+.board_name__list {
+  padding: 0px;
+  margin: 5px 0px 0px 0px;
+}
+
+.board_name__list li {
+  margin-bottom: 3px;
+  color: var(--color--white);
+}
+
+.color_red {
+  background-color: var(--color--light-red);
+  border: solid 1px;
+  border-color: var(--color--light-red);
+  border-radius: 2px;
+}
+
+.color_blue {
+  background-color: var(--color--marine-blue);
+  border: solid 1px;
+  border-color: var(--color--marine-blue);
+  border-radius: 2px;
+}
+
+.board_title {
+  display: flex;
+  flex: 1;
+  font-size: 13px;
+}
+
+.board_title__list {
+  padding: 0px;
+  margin: 5px 0px 0px 0px;
+}
+
+.board_title__list li {
+  margin-bottom: 5px;
+}
+
+.board_count__table {
+  margin: 30px 0px 10px 0px;
+  width: 95%;
+  height: 25%;
+  border-collapse: collapse;
+  text-align: start;
+  font-size: 13px;
+}
+
+.board_count__table tr {
+  border: dashed 0.1em var(--color--light-dark-grey);
+  border-left: 0;
+  border-right: 0;
+}
+
+.board_count__table td {
+  padding: 5px;
+}
+
+.board_count {
+  color: var(--color--dark-blue);
+  font-weight: 700;
+}
+
+/* minihomepi - miniroom */
+
+.miniroom__area {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+
+.miniroom__title {
+  display: flex;
+  font-size: 15px;
+  border-bottom: solid 1px;
+  border-color: var(--color--light-dark-grey);
+  color: var(--color--marine-blue);
+  font-weight: 700;
+}
+
+.miniroom {
+  display: flex;
+}
+
+.miniroom > img {
+  padding-top: 3px;
+  width: 100%;
+  object-fit: cover;
+}
