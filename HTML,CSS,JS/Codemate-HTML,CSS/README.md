@@ -13,5 +13,6 @@
 - ✅ DAY 07 과제: 미니홈피 홈화면 레이아웃 만들기2 >> [코드메이트 링크](https://codemate.kr/@oh29/HTMLCSS-심화편-DAY-07)
 - ✅ DAY 08 과제: 미니홈피 프로젝트 css 파일 분리하기 >> [코드메이트 링크](https://codemate.kr/@oh29/HTMLCSS-심화편-DAY-08)
 - ✅ DAY 09 과제: 미니홈피 홈화면 레이아웃 완성하기 >> [코드메이트 링크](https://codemate.kr/@oh29/HTMLCSS-심화편-DAY-09)
+- ✅ DAY 10 과제: 미니홈피 사진첩 만들기 >> [코드메이트 링크](https://codemate.kr/@oh29/HTMLCSS-심화편-DAY-10)
 
 > Written with [StackEdit](https://stackedit.io/).
