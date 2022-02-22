@@ -15,5 +15,6 @@
 - ✅ DAY 09 과제: 미니홈피 홈화면 레이아웃 완성하기 >> [코드메이트 링크](https://codemate.kr/@oh29/HTMLCSS-심화편-DAY-09)
 - ✅ DAY 10 과제: 미니홈피 사진첩 만들기 >> [코드메이트 링크](https://codemate.kr/@oh29/HTMLCSS-심화편-DAY-10)
 - ✅ DAY 11 과제: 미니홈피 다이어리 만들기 >> [코드메이트 링크](https://codemate.kr/@oh29/HTMLCSS-심화편-DAY-11)
+- ✅ DAY 12 과제: txt 파일 불러오기 >> [코드메이트 링크](https://codemate.kr/@oh29/HTMLCSS-심화편-DAY-12)
 
 > Written with [StackEdit](https://stackedit.io/).
