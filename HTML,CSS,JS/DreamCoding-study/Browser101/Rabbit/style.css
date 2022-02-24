@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+}
+
+div {
+  margin: 0 auto;
+}
+
+.find_rabbit__btn {
+  text-align: center;
+  margin: 20px;
+}
+
+.find_rabbit__btn button {
+  background-color: #ee4b81;
+  border: none;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.carrot,
+.rabbit {
+  width: 180px;
+  height: 180px;
+}
+
+.carrot {
+  background: url(img/carrot.png) center/cover no-repeat;
+}
