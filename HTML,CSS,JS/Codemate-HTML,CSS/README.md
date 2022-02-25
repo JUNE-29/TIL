@@ -17,5 +17,6 @@
 - ✅ DAY 11 과제: 미니홈피 다이어리 만들기 >> [코드메이트 링크](https://codemate.kr/@oh29/HTMLCSS-심화편-DAY-11)
 - ✅ DAY 12 과제: txt 파일 불러오기 >> [코드메이트 링크](https://codemate.kr/@oh29/HTMLCSS-심화편-DAY-12)
 - ✅ DAY 13 과제: 미니홈피 프로젝트 완성하기(방명록 만들기) >> [코드메이트 링크](https://codemate.kr/@oh29/HTMLCSS-심화편-DAY-13)
+- ✅ DAY 14, 15 과제: github 호스팅
 
 > Written with [StackEdit](https://stackedit.io/).
