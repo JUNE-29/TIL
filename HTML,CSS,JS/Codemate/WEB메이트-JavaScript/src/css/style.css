@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "IM_Hyemin-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#app {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.box {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#cat_speech_balloon {
+  display: flex;
+  width: 500px;
+  height: 200px;
+  border: solid 2px black;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#cat_speech_balloon p {
+  font-family: "IM_Hyemin-Bold";
+  font-size: 20px;
+  margin: 16px;
+}
+
+.box > img {
+  margin-top: 50px;
+}
+
+.box > input {
+  margin-top: 30px;
+  width: 300px;
+  height: 30px;
+}
+
+.box > button {
+  margin-top: 30px;
+  padding: 30px;
+  width: 300px;
+  font-family: "IM_Hyemin-Bold";
+  font-size: 20px;
+  background-color: pink;
+  border: solid 1px pink;
+  border-radius: 50px;
+  cursor: pointer;
+}
