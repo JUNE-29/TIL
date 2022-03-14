@@ -8,5 +8,6 @@
 - ✅ DAY 02 과제: DOM 구조 그려보기 >> [코드메이트 링크](https://codemate.kr/@oh29/자바스크립트-편-DAY-02)
 - ✅ DAY 03 과제: 삼행시 버튼 만들기 >> [코드메이트 링크](https://codemate.kr/@oh29/자바스크립트-편-DAY-03)
 - ✅ DAY 04 과제: 버튼 클릭 이벤트 만들기 >> [코드메이트 링크](https://codemate.kr/@oh29/자바스크립트-편-DAY-04)
+- ✅ DAY 05 과제: 변수 타입 출력하기 >> [코드메이트 링크](https://codemate.kr/@oh29/자바스크립트-편-DAY-05)
 
 > Written with [StackEdit](https://stackedit.io/).
