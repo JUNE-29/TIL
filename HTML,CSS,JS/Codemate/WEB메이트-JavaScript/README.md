@@ -10,5 +10,7 @@
 - ✅ DAY 04 과제: 버튼 클릭 이벤트 만들기 >> [코드메이트 링크](https://codemate.kr/@oh29/자바스크립트-편-DAY-04)
 - ✅ DAY 05 과제: 변수 타입 출력하기 >> [코드메이트 링크](https://codemate.kr/@oh29/자바스크립트-편-DAY-05)
 - ✅ DAY 06 과제: 사칙연산 출력하기 >> [코드메이트 링크](https://codemate.kr/@oh29/자바스크립트-편-DAY-06)
+- ✅ DAY 07 과제: 간단한 스톱워치 만들기 >>
+- ✅ DAY 08 과제: 전광판 만들기 >> [코드메이트 링크](https://codemate.kr/@oh29/자바스크립트-편-DAY-08)
 
 > Written with [StackEdit](https://stackedit.io/).
