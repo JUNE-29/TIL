@@ -12,5 +12,6 @@
 - ✅ DAY 06 과제: 사칙연산 출력하기 >> [코드메이트 링크](https://codemate.kr/@oh29/자바스크립트-편-DAY-06)
 - ✅ DAY 07 과제: 간단한 스톱워치 만들기 >>
 - ✅ DAY 08 과제: 전광판 만들기 >> [코드메이트 링크](https://codemate.kr/@oh29/자바스크립트-편-DAY-08)
+- ✅ DAY 09 과제: 좋아하는 영화 정리하기 >> [코드메이트 링크](https://codemate.kr/@oh29/자바스크립트-편-DAY-09)
 
 > Written with [StackEdit](https://stackedit.io/).
