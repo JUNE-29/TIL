@@ -1,0 +1,50 @@
+h1 {
+  padding-left: 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.sunny_button {
+  width: 85px;
+  background-color: white;
+  border: solid 2px #f36f87;
+  border-radius: 3px;
+  color: #f36f87;
+  cursor: pointer;
+}
+
+.sunny_button:hover {
+  background-color: #fffff0;
+}
+
+.interstella_button {
+  width: 85px;
+  border: solid 2px #265ea7;
+  background-color: white;
+  border-radius: 3px;
+  color: #265ea7;
+  cursor: pointer;
+}
+
+.interstella_button:hover {
+  background-color: #ebf6fa;
+}
+
+.harrypotter_button {
+  width: 85px;
+  border: solid 2px #7410b6;
+  background-color: white;
+  border-radius: 3px;
+  color: #7410b6;
+  cursor: pointer;
+}
+
+.harrypotter_button:hover {
+  background-color: #faeffd;
+}
