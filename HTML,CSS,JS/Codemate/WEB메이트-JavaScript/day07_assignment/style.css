@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Black+Ops+One&display=swap");
+
+body {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+}
+
+.bg {
+  display: flex;
+  background-color: #def1ff;
+  margin-top: 50px;
+  width: 500px;
+  height: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 210px;
+  width: 400px;
+  border: solid 1px #def1ff;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.time {
+  display: flex;
+  flex: 0.5;
+  font-size: 50px;
+  font-family: "Black Ops One", cursive;
+}
+
+.buttons {
+  display: flex;
+  flex: 0.2;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.start__button,
+.stop__button,
+.reset__button {
+  color: white;
+  margin: 0px 10px;
+  width: 100px;
+  background-color: #36a2f5;
+  border: solid 1px #36a2f5;
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.stop__button {
+  background-color: #ff6f6f;
+  border: solid 1px #ff6f6f;
+}
+
+.reset__button {
+  background-color: #ffe56f;
+  border: solid 1px #ffe56f;
+}

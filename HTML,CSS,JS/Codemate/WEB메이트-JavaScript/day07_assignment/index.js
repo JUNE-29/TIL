@@ -5,6 +5,7 @@ const hour = document.querySelector('.hour');
 const min = document.querySelector('.minute');
 const sec = document.querySelector('.second');
 
+
 let timeout;
 
 let hours = 0;
