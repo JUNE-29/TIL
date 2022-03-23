@@ -27,7 +27,7 @@ body {
   align-items: center;
 }
 
-#cat_speech_balloon {
+.cat_speech_balloon {
   display: flex;
   width: 500px;
   height: 200px;
@@ -37,13 +37,14 @@ body {
   align-items: center;
 }
 
-#cat_speech_balloon p {
+.cat_speech {
   font-family: "IM_Hyemin-Bold";
   font-size: 20px;
   margin: 16px;
 }
 
-.box > img {
+.cat_illust_light,
+.cat_illust_night {
   margin-top: 50px;
 }
 
@@ -63,11 +64,9 @@ body {
   border: solid 1px pink;
   border-radius: 50px;
   cursor: pointer;
-  /* transition: transform 2ms ease-in; */
 }
 
 #to_cat_button:hover {
-  /* transform: scale(1.1); */
   -webkit-animation: hover 1200ms linear 2 alternate;
   animation: hover 1200ms linear 2 alternate;
 }
@@ -75,6 +74,19 @@ body {
 #to_cat_button:active {
   -webkit-animation: active 1200ms ease 1 alternate;
   animation: active 1200ms ease 1 alternate;
+}
+
+.background_color_black {
+  background-color: black;
+}
+
+.night {
+  border-color: #fbf8b5;
+  color: #fbf8b5;
+}
+
+.hidden {
+  display: none;
 }
 
 @-webkit-keyframes active {

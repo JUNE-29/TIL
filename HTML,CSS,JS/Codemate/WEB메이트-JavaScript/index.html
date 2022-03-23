@@ -2,17 +2,20 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Day11 - assignment</title>
+    <title>Day12 - assignment</title>
     <link rel="stylesheet" href="./src/css/style.css">
     <script src="src/js/index.js" defer></script>
 </head>
 <body>
     <div id="app">
         <div class="box">
-            <div id="cat_speech_balloon">
+            <div class = "cat_speech_balloon">
                 <p class="cat_speech">어쩌라고냥</p>
             </div>
-            <img src="./src/images/cat_illust-01.png" alt="cat illust">
+            <div class="illust">
+                <img class="cat_illust_light" src="./src/images/cat_illust.png" alt="cat illust">
+                <img class="cat_illust_night hidden" src="./src/images/cat_illust_02.png" alt="cat illust">
+            </div>
             <input type="text" id="to_cat_text">
             <button id="to_cat_button">냥이에게 말 걸기👆</button>
         </div>
