@@ -16,5 +16,6 @@
 - ✅ DAY 10 과제: 이름과 전화번호 출력하기 >> [코드메이트 링크](https://codemate.kr/@oh29/자바스크립트-편-DAY-10)
 - ✅ DAY 11 과제: 사용자 입력 변환하기 >> [코드메이트 링크](https://codemate.kr/@oh29/자바스크립트-편-DAY-11)
 - ✅ DAY 12 과제: 다양한 디자인 적용하기 >> [코드메이트 링크](https://codemate.kr/@oh29/자바스크립트-편-DAY-12)
+- ✅ DAY 13 과제: 나만의 챗봇을 만들기 >> [코드메이트 링크](https://codemate.kr/@oh29/자바스크립트-편-DAY-13)
 
 > Written with [StackEdit](https://stackedit.io/).
