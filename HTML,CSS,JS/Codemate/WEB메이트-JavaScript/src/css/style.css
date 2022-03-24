@@ -43,9 +43,14 @@ body {
   margin: 16px;
 }
 
-.cat_illust_light,
-.cat_illust_night {
+.cat_illust_normal,
+.cat_illust_night,
+.cat_illust_party {
   margin-top: 50px;
+}
+
+.cat_illust_party {
+  width: 200px;
 }
 
 #to_cat_text {
@@ -87,6 +92,17 @@ body {
 
 .hidden {
   display: none;
+}
+
+.rainbow_background {
+  background: rgb(255, 130, 130);
+  background: radial-gradient(
+    circle,
+    rgba(255, 130, 130, 1) 0%,
+    rgba(247, 235, 165, 1) 40%,
+    rgba(118, 214, 205, 1) 70%,
+    rgba(255, 95, 233, 1) 100%
+  );
 }
 
 @-webkit-keyframes active {
