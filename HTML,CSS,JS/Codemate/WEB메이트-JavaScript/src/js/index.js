@@ -2,27 +2,35 @@ const toCatBtn = document.querySelector('#to_cat_button');
 const toCatText = document.querySelector('#to_cat_text');
 
 let catSay = document.querySelector('.cat_speech');
+
 const speechBalloon = document.querySelector('.cat_speech_balloon');
 const nomalCat = document.querySelector('.cat_illust_normal');
 const nightCat = document.querySelector('.cat_illust_night');
 const partyCat = document.querySelector('.cat_illust_party');
 
+const caption = document.querySelector('.caption');
+
 let light = true;
 let follow = false;
 
+const typewriter = new Typewriter(caption, {
+    loop: false
+});
+
 function CheckText() {
     const text = toCatText.value;
-
+    
     const turnOffLight = () => {
         catSay.innerText = '냥!🌙';
         document.body.classList.add('background_color_black');
         speechBalloon.classList.add('night');
         nomalCat.classList.add('hidden');
         nightCat.classList.remove('hidden');
-
+        
         light = false;
     };
 
+    
     const turnOnLight = () => {
 
         if (light === true) {
@@ -66,6 +74,20 @@ function CheckText() {
         partyCat.classList.add('hidden');
     }
 
+    const writerAnimation = () => {
+        typewriter.deleteAll()
+        .typeString('냥이가 무시했다...')
+        .pauseFor(1500)
+        .deleteAll()
+        .typeString('다시 올바르게 말걸어 보자...!')
+        .pauseFor(2500)
+        .start();
+
+        setTimeout(()=>{
+            typewriter.deleteAll();
+        },2000);
+    };
+
     if (text === '') {
         alert('말을 하라냥!!! 😾');
         toCatText.focus();
@@ -95,10 +117,11 @@ function CheckText() {
         partyOff();
         catSay.innerText = '파티끝이다냥!';
     }else {
-        catSay.innerText = '냥무시😏'
+        catSay.innerText = '냥무시😑'
+        writerAnimation();
     }
 
 }
 
-
+typewriter.typeString('냥이에게 말을 걸어보자..!').start();
 toCatBtn.addEventListener('click',CheckText);
