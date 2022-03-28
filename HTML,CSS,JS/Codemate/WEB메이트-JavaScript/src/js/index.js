@@ -17,6 +17,34 @@ const typewriter = new Typewriter(caption, {
     loop: false
 });
 
+let question = "";
+let answer = "";
+let key = 0;
+
+const json = [
+    {
+        "question": "사랑해",
+        "answer":"그럼 간식 대령해랴냥❤"
+    }
+];
+
+function pushJson() {
+    json.push({question: `${question}`, answer: `${answer}`});
+        catSay.innerHTML = `'${question}' 에 대한 대답 '${answer}' 을(를) 배웠다냥! <br> 나는 천재고양이라냥😸`
+        key = 0;
+}
+
+function writerAnimation() {
+    typewriter.deleteAll()
+    .typeString('냥이가 말을 이해하지 못 했다.')
+    .pauseFor(1500)
+    .start();
+
+    setTimeout(()=>{
+        typewriter.deleteAll();
+    },2000);
+};
+
 function CheckText() {
     const text = toCatText.value;
     
@@ -72,21 +100,24 @@ function CheckText() {
         document.body.classList.remove('rainbow_background');
         nomalCat.classList.remove('hidden');
         partyCat.classList.add('hidden');
+    };
+
+    if(key === 1) {
+        if(text === "YES" || text === "yes") {
+            catSay.innerHTML = `'${question}' 에 대한 대답을 알려달라냥😉`
+            key = 2;
+        } else {
+            catSay.innerHTML = "냥🐱?";
+            key = 0;
+        }
+        return;
     }
 
-    const writerAnimation = () => {
-        typewriter.deleteAll()
-        .typeString('냥이가 무시했다...')
-        .pauseFor(1500)
-        .deleteAll()
-        .typeString('다시 올바르게 말걸어 보자...!')
-        .pauseFor(2500)
-        .start();
-
-        setTimeout(()=>{
-            typewriter.deleteAll();
-        },2000);
-    };
+    if(key === 2) {
+        answer = text;
+        pushJson();
+        return;
+    }
 
     if (text === '') {
         alert('말을 하라냥!!! 😾');
@@ -98,9 +129,6 @@ function CheckText() {
 
     } else if (text === '불켜줘' || text === '다시 불켜줘') {
         turnOnLight();
-
-    } else if (text === '사랑해' || text === '사랑해!') {
-        catSay.innerText = '그럼 간식 대령해랴냥❤';
 
     } else if (text === '따라해봐') {
         follow = true;
@@ -117,10 +145,19 @@ function CheckText() {
         partyOff();
         catSay.innerText = '파티끝이다냥!';
     }else {
-        catSay.innerText = '냥무시😑'
-        writerAnimation();
-    }
 
+        for(let i = 0; i < json.length; i++) {
+            if(text === json[i].question) {
+                catSay.innerHTML = json[i].answer;
+                return;
+            }
+        }
+
+        catSay.innerHTML = '뭔말이냥😑? 가르쳐달라냥. <br> YES 또는 NO 로 대답해달라냥.'
+        writerAnimation();
+        question = text;
+        key = 1;
+    }
 }
 
 typewriter.typeString('냥이에게 말을 걸어보자..!').start();
