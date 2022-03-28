@@ -18,5 +18,6 @@
 - ✅ DAY 12 과제: 다양한 디자인 적용하기 >> [코드메이트 링크](https://codemate.kr/@oh29/자바스크립트-편-DAY-12)
 - ✅ DAY 13 과제: 나만의 챗봇을 만들기 >> [코드메이트 링크](https://codemate.kr/@oh29/자바스크립트-편-DAY-13)
 - ✅ DAY 14 과제: 타이핑 애니메이션 활용 >> [코드메이트 링크](https://codemate.kr/@oh29/자바스크립트-편-DAY-14)
+- ✅ DAY 15 과제: 챗봇에게 말 가르치기 >> [코드메이트 링크](https://codemate.kr/@oh29/자바스크립트-편-DAY-15)
 
 > Written with [StackEdit](https://stackedit.io/).
